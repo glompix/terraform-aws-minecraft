@@ -1,4 +1,9 @@
 // Required
+
+variable "aws_region" {
+  description = "AWS Region"
+}
+
 variable "vpc_id" {
   description = "VPC for security group"
 }
@@ -79,4 +84,3 @@ variable "allowed_cidrs" {
   description = "Allow these CIDR blocks to the server - default is the Universe"
   default     = "0.0.0.0/0"
 }
-

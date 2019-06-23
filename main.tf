@@ -2,6 +2,7 @@
 
 // Our AWS provider
 provider "aws" {
+  region = var.aws_region
 }
 
 // Find latest Ubuntu AMI, use as default if no AMI specified
