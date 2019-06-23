@@ -1,9 +1,4 @@
 // Required
-
-variable "aws_region" {
-  description = "AWS Region"
-}
-
 variable "vpc_id" {
   description = "VPC for security group"
 }
