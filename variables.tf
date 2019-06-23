@@ -1,4 +1,3 @@
-
 // Required
 variable "vpc_id" {
   description = "VPC for security group"
@@ -39,7 +38,7 @@ variable "mc_root" {
 }
 
 variable "mc_version" {
-  description = "Which version of minecraft to install" 
+  description = "Which version of minecraft to install"
   default     = "1.12.2"
 }
 
